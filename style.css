@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-image:linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%);
+    color: transparent;
+    background-clip: text;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    height:400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 90vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px ;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 8rem;
+    width: 8rem;
+    background-color: #4fd6f1;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 0px 80px 1px rgba(0, 0, 0, 0.447);
+}
+.btn{
+    border: 0;
+    background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%);
+    transform:  translateY(50%);
+    margin-top: 20px;
+}
+.btn {
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.447);
+   border-radius: 10px;
+   display: inline-block;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1rem;
+ }
+
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
