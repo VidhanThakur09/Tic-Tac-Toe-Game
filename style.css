@@ -79,4 +79,10 @@ p{
  .btn2{
     background-image: linear-gradient(to right, #dc6b24 0%, #514A9D  51%, #24C6DC  100%);
  }
+ .hide{
+    display: none;
+ }
+ .orange{
+    color:#000000;
+ }
 
